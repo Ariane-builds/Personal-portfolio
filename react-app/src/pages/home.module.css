@@ -4,12 +4,12 @@
     align-items: center;
     font-size: 30px;
     text-align: justify;
+    padding: 0rem 1rem;
 }
 
 .introduction a{
     text-decoration: none;
     color: white;
-    margin: 1rem;
     border: 2px white solid;
     padding: 0.7rem;
     border-radius: 30px;
@@ -35,6 +35,12 @@
     padding-right: 2rem;
 }
 
+.links{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
 
 
 .about, .projects {
@@ -45,14 +51,22 @@
     text-align: center;
 }
 
+.about h3{
+    font-size: 30px;
+}
+
 .about p{
-    font-size: 25px;
+    font-size: 35px;
     text-align: center;
+    width: 70%;
+    margin: 0px auto;
 }
 
 .skills {
+    width: 40%;
     font-size: 50px;
-    text-align: center;
+    text-align: justify;
+    margin: 0px auto;
 }
 
 
@@ -68,13 +82,11 @@
     position: relative;
     margin: 0px auto;
     width: 70%;
-    height: 90vh;
 }
 
 /* all */
 
 .about, .contact, .projects {
-    height: 90vh;
     margin: 2rem 0rem;
 }
 
@@ -82,3 +94,6 @@ h2, .about h3{
     text-align: center;
 }
 
+h2{
+    font-size: 45px;
+}

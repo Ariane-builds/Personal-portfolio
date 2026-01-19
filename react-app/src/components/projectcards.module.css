@@ -6,16 +6,34 @@
     overflow: hidden;
 }
 
+.projectdetail h3{
+    margin: 0px;
+}
+
 .projectdetail img{
     width: 100%;
     object-fit: cover;
     height: 70%;
     box-shadow:rgb(76, 168, 225);
+    position: relative;
 }
 
 .projectdetail a{
     display: none;
-    transition: transform 0.3s ease;
+    text-decoration:none;
+    transform: translate(0.5s ease);
+    text-align: center;
+    width: 100%;
+    padding: 1rem;
+    background-color: rgba(255, 255, 255, 0.708);
+    color: black;
+    height: 5rem;
+}
+
+.projectdetail p {
+    display: block;
+    padding: 0rem 0.5rem;
+    text-align: justify;
 }
 
 .projectdetail:hover {
@@ -23,4 +41,8 @@
 }
 .projectdetail:hover a{
     display: block;
+}
+
+.projectdetail:hover p{
+    display: none;
 }
