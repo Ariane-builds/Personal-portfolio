@@ -1,9 +1,9 @@
 import styles from "./contact.module.css";
 import Swal from 'sweetalert2';
 function Contact (){
-    const onSubmit = async (event) => {
+    const onSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
         event.preventDefault();
-        const formData = new FormData(event.target);
+        const formData = new FormData(event.currentTarget);
 
         formData.append("access_key", "698a656a-3a83-4d0f-a7af-653e29c88686");
 

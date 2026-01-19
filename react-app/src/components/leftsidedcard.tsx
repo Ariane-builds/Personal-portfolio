@@ -1,6 +1,11 @@
 import styles from './education.module.css';
 
-function Leftsidedcard({university, degree, date, description}) {
+function Leftsidedcard({university, degree, date, description} : {
+  university: string;
+  degree: string;
+  date: string;
+  description: string;
+}) {
     return(
         <div className={styles.leftsided}>
             <div className={styles.university}>

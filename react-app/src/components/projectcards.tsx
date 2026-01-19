@@ -3,7 +3,12 @@ import { FaExternalLinkAlt } from "react-icons/fa";
 
 
 
-function ProjectCards({image, name, description, link}) {
+function ProjectCards({image, name, description, link}: {
+  image: string;
+  name: string;
+  description: string;
+  link: string;
+}) {
     return(
         <div className={styles.projectdetail}>
             <img src={image} alt={name}/>

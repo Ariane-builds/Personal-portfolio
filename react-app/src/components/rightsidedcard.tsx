@@ -1,6 +1,11 @@
 import styles from './education.module.css';
 
-function Rightsidedcard({university, degree, date, description}) {
+function Rightsidedcard({university, degree, date, description}: {
+  university: string;
+  degree: string;
+  date: string;
+  description: string;
+}) {
     return(
         <div className={styles.rightsided}>
             <hr id={styles.line} />
