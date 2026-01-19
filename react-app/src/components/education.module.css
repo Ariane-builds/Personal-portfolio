@@ -1,0 +1,40 @@
+.leftsided{
+    display: flex;
+    align-items: center;
+    width: 45%;
+    border-right:0.7rem solid;
+    border-color: white;
+    margin-top: 10%;
+}
+
+.rightsided{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 45%;
+    top: 45%;
+    width: 45%;
+    border-left:0.7rem solid;
+    border-color: white;
+    gap:0px;
+}
+
+.university {
+    color: black;
+    background-color: white;
+    padding: 1rem;
+    border-radius: 20px;
+    width: 90%;
+}
+
+.university p{
+    margin: 0px;
+    width: 100%;
+}
+
+#line{
+    background-color:white;
+    width:10%;
+    height: 0.7rem;
+    border: 0px;
+}

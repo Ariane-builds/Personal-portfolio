@@ -1,0 +1,84 @@
+.introduction {
+    display: flex;
+    gap: 5rem;
+    align-items: center;
+    font-size: 30px;
+    text-align: justify;
+}
+
+.introduction a{
+    text-decoration: none;
+    color: white;
+    margin: 1rem;
+    border: 2px white solid;
+    padding: 0.7rem;
+    border-radius: 30px;
+    transform:translate(ease 0.3s);
+}
+
+.introduction a:hover{
+    background-color: white;
+    color: black;
+}
+
+.introduction img{
+    width: 50%;
+    height: 95vh;
+    object-fit: fill;
+}
+
+.introduction h1{
+    font-size: 70px;
+}
+
+.introduction p{
+    padding-right: 2rem;
+}
+
+
+
+.about, .projects {
+    padding: 0rem 2rem;
+}
+
+.about h2{
+    text-align: center;
+}
+
+.about p{
+    font-size: 25px;
+    text-align: center;
+}
+
+.skills {
+    font-size: 50px;
+    text-align: center;
+}
+
+
+.projectsfirst{
+    display: flex;
+    gap: 2rem;
+    margin: 0px auto;
+    justify-content: center;
+}
+
+
+.education{
+    position: relative;
+    margin: 0px auto;
+    width: 70%;
+    height: 90vh;
+}
+
+/* all */
+
+.about, .contact, .projects {
+    height: 90vh;
+    margin: 2rem 0rem;
+}
+
+h2, .about h3{
+    text-align: center;
+}
+

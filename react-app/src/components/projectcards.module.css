@@ -1,0 +1,26 @@
+.projectdetail{
+    width: 30%;
+    height: 30rem;
+    background-color: rgba(245, 245, 220, 0.619);
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.projectdetail img{
+    width: 100%;
+    object-fit: cover;
+    height: 70%;
+    box-shadow:rgb(76, 168, 225);
+}
+
+.projectdetail a{
+    display: none;
+    transition: transform 0.3s ease;
+}
+
+.projectdetail:hover {
+    cursor: pointer;
+}
+.projectdetail:hover a{
+    display: block;
+}
