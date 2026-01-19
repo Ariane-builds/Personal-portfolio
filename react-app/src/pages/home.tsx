@@ -7,7 +7,6 @@ import styles from './home.module.css';
 import { Linkedin } from 'lucide-react';
 import { Github } from 'lucide-react';
 import { ArrowDownToLine } from 'lucide-react';
-import { IoLogoJavascript } from "react-icons/io";
 import {
   FaHtml5,
   FaCss3Alt,
