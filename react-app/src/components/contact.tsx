@@ -21,7 +21,6 @@ function Contact (){
 
         if (res.success) {
         Swal.fire({
-        title: "Good job!",
         text: "Message sent successfully!",
         icon: "success"
         });
@@ -32,16 +31,16 @@ function Contact (){
             <form onSubmit={onSubmit}>
                 <h2>Get in touch!</h2>
                 <div>
-                    <label htmlFor="">Full name</label>
-                    <input type="text" placeholder='Enter your name' required />
+                    <label>Full name</label>
+                    <input type="text" name="name" placeholder='Enter your name' required />
                 </div>
                 <div>
                     <label htmlFor="">Email</label>
-                    <input type="email" placeholder='Enter your email' required />
+                    <input type="email" name="email" placeholder='Enter your email' required />
                 </div>
                 <div>
-                    <label htmlFor="">Your message</label>
-                    <textarea name="" id="" placeholder='Enter your message' required></textarea>
+                    <label>Your message</label>
+                    <textarea name="message" placeholder='Enter your message' required></textarea>
                 </div>
                 <button>Send message</button>
             </form>
