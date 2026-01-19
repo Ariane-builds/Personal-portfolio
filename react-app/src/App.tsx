@@ -1,4 +1,3 @@
-import Navbar from './components/navbar';
 import Home from './pages/home';
 import Copyright from './components/copyright';
 import './App.css';
