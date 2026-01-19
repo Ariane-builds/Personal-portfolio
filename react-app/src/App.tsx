@@ -5,7 +5,6 @@ import './App.css';
 
 function App() {
   return <div className='sort'>
-    <Navbar/>
     <Home/>
     <Copyright/>
     </div>;
