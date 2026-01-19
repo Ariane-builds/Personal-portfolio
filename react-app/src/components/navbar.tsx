@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import styles from "./Navbar.module.css";
+import styles from "./navbar.module.css";
 
 const sections = ["Home", "About", "Projects", "Education", "Contact"];
 

@@ -60,23 +60,22 @@ const projects = [
 
 const education = [
     {
-    university: "ALS",
-    degree:"Data sciene associate degree",
-    date: "2022-2024",
-    description: "did data science at ALX"
-}, 
-    {
     university: "ALX",
     degree:"Data sciene associate degree",
     date: "2022-2024",
     description: "did data science at ALX"
 }, 
     {
-    university: "ALU",
-    degree:"Data sciene associate degree",
-    date: "2022-2024",
-    description: "did data science at ALX"
-}
+    university: "African Leadership University",
+    degree:"Bachelor of Science in Software Engineering",
+    date: "2023-2025",
+    description: "Studied Software Engineering at African Leadership University, gaining practical experience through real-world, project-based work."
+},  {
+    university: "University of Arkansas",
+    degree:"Bachelor of Science in Computer Science",
+    date: "2025-2028",
+    description: "Computer Science student with a strong foundation in data structures, algorithms, and software development. Experienced in applying these concepts through academic and personal projects."
+},
 ]
 
 function Home (){
