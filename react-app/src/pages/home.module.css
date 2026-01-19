@@ -39,8 +39,15 @@
     display: flex;
     flex-wrap: wrap;
     gap: 1rem;
+    font-size: 25px;
+    text-align: center;
 }
 
+.links a {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+}
 
 
 .about, .projects {
@@ -51,22 +58,29 @@
     text-align: center;
 }
 
+section{
+    padding-top: 35px;
+}
+
 .about h3{
     font-size: 30px;
 }
 
 .about p{
-    font-size: 35px;
+    font-size: 30px;
     text-align: center;
     width: 70%;
     margin: 0px auto;
 }
 
 .skills {
-    width: 40%;
+    width: 50%;
     font-size: 50px;
     text-align: justify;
     margin: 0px auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
 }
 
 
