@@ -1,8 +1,13 @@
+.all {
+    padding:0px 50px;
+}
+
+
 .introduction {
     display: flex;
     gap: 5rem;
     align-items: center;
-    font-size: 30px;
+    font-size: 25px;
     text-align: justify;
     padding: 0rem 1rem;
 }
@@ -24,22 +29,25 @@
 .introduction img{
     width: 50%;
     height: 95vh;
-    object-fit: fill;
+    border-radius: 50%;
+    object-fit:contain;
 }
 
 .introduction h1{
-    font-size: 70px;
+    font-size: 60px;
 }
 
-.introduction p{
-    padding-right: 2rem;
+.icon{
+    width:25px;
+    height:25px; 
 }
+
 
 .links{
     display: flex;
     flex-wrap: wrap;
     gap: 1rem;
-    font-size: 25px;
+    font-size: 20px;
     text-align: center;
 }
 
@@ -50,16 +58,17 @@
 }
 
 
-.about, .projects {
+.about, .projects{
     padding: 0rem 2rem;
 }
 
-.about h2{
-    text-align: center;
-}
 
 section{
     padding-top: 35px;
+}
+
+#Home {
+    padding-top: 0px;
 }
 
 .about h3{
@@ -85,8 +94,6 @@ section{
 
 
 .projectsfirst{
-    display: flex;
-    gap: 2rem;
     margin: 0px auto;
     justify-content: center;
 }
@@ -100,14 +107,48 @@ section{
 
 /* all */
 
-.about, .contact, .projects {
+.about, .contact{
     margin: 2rem 0rem;
 }
 
-h2, .about h3{
-    text-align: center;
+h2{
+    font-size: 30px;
 }
 
-h2{
-    font-size: 45px;
+
+@media (max-width: 800px) {
+    .introduction {
+        flex-direction: column-reverse;
+        gap: 1rem;
+    }
+
+    .introduction img{
+        height: 30vh;
+    }
+    .introduction h1{
+        font-size: 35px;
+        text-align: center;
+    }
+    .introduction p{
+        font-size: 20px;
+        text-align: center;
+    }
+    
+    .links {
+        font-size: 15px;
+        justify-content: center;
+    }
+
+    .about h3{
+        font-size: 20px;
+    }
+
+    .projects, .about {
+        padding: 0rem;
+    }
+    .icon{
+        width:20px;
+        height: 20px; 
+    }
 }
+

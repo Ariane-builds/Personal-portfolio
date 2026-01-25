@@ -6,3 +6,9 @@
     height: 2rem;
     padding-top: 1rem;
 }
+
+@media (max-width: 700px) {
+    .footer{
+        font-size: 15px;
+    }
+}

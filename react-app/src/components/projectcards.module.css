@@ -1,9 +1,13 @@
 .projectdetail{
-    width: 30%;
+    width: 70%;
     height: 30rem;
-    background-color: rgba(245, 245, 220, 0.619);
+    margin: 2rem auto;
+    background-color:rgb(237, 232, 232);
+    color: black;
     border-radius: 20px;
     overflow: hidden;
+    display: flex;
+    flex-direction: column;
 }
 
 .projectdetail h3{
@@ -13,22 +17,24 @@
 
 .projectdetail img{
     width: 100%;
-    object-fit: cover;
-    height: 70%;
+    object-fit:cover;
+    height: 30vh;
     box-shadow:rgb(76, 168, 225);
     position: relative;
 }
 
 .projectdetail a{
-    display: none;
+    display: block;
+    width: 30%;
+    border-radius: 30px;
     text-decoration:none;
     transform: translate(0.5s ease);
     text-align: center;
-    width: 100%;
     padding: 1rem;
-    background-color: rgba(255, 255, 255, 0.708);
+    background-color:rgb(97, 195, 248);
     color: black;
-    height: 5rem;
+    margin: 4rem auto;
+    margin-bottom: 0.5rem;
 }
 
 .projectdetail p {
@@ -40,10 +46,12 @@
 .projectdetail:hover {
     cursor: pointer;
 }
-.projectdetail:hover a{
-    display: block;
-}
 
-.projectdetail:hover p{
-    display: none;
+
+@media (max-width: 700px) {
+    .projectdetail {
+        width: 95%;
+        font-size: 15px;
+        height: fit-content;
+    }
 }

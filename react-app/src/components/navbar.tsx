@@ -1,10 +1,10 @@
 import { useEffect, useState } from "react";
 import styles from "./navbar.module.css";
 
-const sections = ["Home", "About", "Projects", "Education", "Contact"];
+const sections = ["Home", "About", "Projects",  "Contact"];
 
 function Navbar() {
-  const [active, setActive] = useState("home");
+  const [active, setActive] = useState("Home");
 
   useEffect(() => {
     const els = sections

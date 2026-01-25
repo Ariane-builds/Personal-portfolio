@@ -24,7 +24,6 @@
     border: none;
     border-radius: 20px;
     width: 15rem;
-    height: 2rem;
     font-size: 20px;
 }
 
@@ -42,4 +41,18 @@
 .contactform textarea{
     height: 10rem;
     border-radius: 10px
+}
+
+@media (max-width: 700px) {
+    .contactform form{
+        width: 90%;
+        font-size: 15px;
+    }
+    h2{
+        font-size: 20px;
+     }
+    .contactform button {
+        font-size: 12px;
+        width: 7rem;
+    }
 }

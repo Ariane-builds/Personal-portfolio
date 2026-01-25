@@ -14,7 +14,7 @@ function ProjectCards({image, name, description, link}: {
             <img src={image} alt={name}/>
             <h3>{name}</h3>
             <p>{description}</p>
-            <a href={link}>Visit <FaExternalLinkAlt /></a>
+            <a href={link}>Live demo <FaExternalLinkAlt /></a>
         </div>
     );
 }
