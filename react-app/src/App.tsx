@@ -3,12 +3,11 @@ import Copyright from './components/copyright';
 import './App.css';
 
 function App() {
-  return<>
+  return(
     <div className='sort'>
     <Home/>
     <Copyright/>
-    </div>;
-    </>
+    </div>);
 }
 
 export default App;
